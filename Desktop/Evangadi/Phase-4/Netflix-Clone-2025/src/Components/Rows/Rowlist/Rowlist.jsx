@@ -1,12 +1,11 @@
-
+import axios from "axios";
 import React from "react";
-import Row from "../Row/Row"
+import Row from "../Row/Row";
 import requests from "../../../Utils/requests";
 
 const Rowlist = () => {
   return (
     <>
-    
       <Row
         title="NETFLIX ORIGINALS"
         fetchUrl={requests.fetchNetflixOriginals}
