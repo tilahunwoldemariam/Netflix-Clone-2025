@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4c92fbc1.css",
+    "main.js": "/static/js/main.f29f2870.js",
+    "static/media/Neflixlogo.png": "/static/media/Neflixlogo.6521ee8dd0b9223ba3b5.png",
+    "index.html": "/index.html",
+    "main.4c92fbc1.css.map": "/static/css/main.4c92fbc1.css.map",
+    "main.f29f2870.js.map": "/static/js/main.f29f2870.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4c92fbc1.css",
+    "static/js/main.f29f2870.js"
+  ]
+}
