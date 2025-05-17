@@ -1,0 +1,169 @@
+ .banners {
+  position: relative;
+  margin-top: -10vh;
+  margin-bottom: 20px;
+  /* margin-left: 30px; */
+  /* padding-top: 300px; */
+  height: 80vh;
+  color: white;
+  object-fit: contain;
+  overflow: hidden;
+}
+
+.banners__title {
+  font-size: 3rem;
+  font-weight: 800;
+  padding-bottom: 0.3rem;
+}
+
+.banners__description {
+  width: 45rem;
+  line-height: 1;
+  padding: 1rem 0;
+  font-size: 1rem;
+  max-width: 360px;
+  height: 80px;
+}
+
+.banners__button {
+  cursor: pointer;
+  color: #fff;
+  outline: none;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: 700;
+  border-radius: 0.2vw;
+  padding: 1rem 3rem;
+  margin-right: 2rem;
+  background-color: rgba(51, 51, 51, 0.5);
+}
+
+.play {
+  color: #000;
+  background-color: #fff;
+}
+
+.banners__button:hover {
+  color: #000;
+  background-color: #c6c6c6;
+  transition: all 0.2s;
+}
+.banners__contents{
+  position: absolute;
+  bottom: 0;
+  left: 30px;
+  padding-bottom: 50px;
+  min-width: 50%;
+}
+
+.banners--fadeBottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 15vh;
+  background-image: linear-gradient(
+    180deg, transparent, rgba(37, 37, 37, 0.91), #111);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .banner {
+  margin-top: 10vh;
+  margin-bottom: 80px;
+  margin-left: 30px;
+  padding-top: 300px;
+  height: 80vh;
+  color: white;
+  object-fit: contain;
+}
+
+.banner{
+  margin-left: 30px;
+  padding-top: 300px;
+  height: 190px;
+}
+.banner__title{
+  font-size: 3rem;
+  font-weight: 800;
+  padding-bottom: 0.3rem;
+}
+.banner__description{
+  width: 45rem;
+  line-height: 1;
+  padding: 1rem 0;
+  font-size: 1rem;
+  max-width: 360px;
+  height: 80px;
+}
+.banner__bottom {
+  cursor: pointer;
+  color: #fff;
+  outline: none;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: 700;
+  border-radius: 0.2vw;
+  padding: 1rem 3rem;
+  margin-right: 2rem;
+  background-color: rgba(51, 51, 51, 0.5);
+;
+}
+.play{ 
+color: #000;
+background-color: #fff;
+}
+.banner__bottom:hover{
+  color: #000;
+  background-color: #c6c6c6c6;
+  transition: all 0.2%;
+}
+.banner--fadeBottom {
+  height: 40vh;
+  background-image: linear-gradient(180deg, transparent, rgba(37, 37, 37, 0.91), #111);
+}
+
+
+
+ */ 
