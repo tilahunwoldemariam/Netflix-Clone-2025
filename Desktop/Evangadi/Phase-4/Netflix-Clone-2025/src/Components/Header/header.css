@@ -4,24 +4,24 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: transparent;
-  height: 10vh;
   background: #000;
   color: white;
+  height: 10vh;
   transition: all 0.5s ease-in;
   z-index: 10;
 }
-
-/* .header_outer_container.scrolled {
-  background-color: rgb(20, 20, 20); 
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-} */
 
 .header_container {
   width: 90%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.header_left {
+  display: flex;
+  align-items: center;
+  gap: 30px;
 }
 
 .header_logo img {
@@ -81,8 +81,6 @@
   .mobile_menu_toggle {
     display: block;
   }
-
-
 
   .browse-language {
     display: block;

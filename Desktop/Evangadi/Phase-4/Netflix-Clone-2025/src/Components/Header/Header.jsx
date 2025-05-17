@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import "./header.css";
 import NetflixLogo from "../../assets/images/Neflixlogo.png";
 import SearchIcon from "@mui/icons-material/Search";
@@ -10,39 +10,31 @@ import CloseIcon from "@mui/icons-material/Close";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
-  const [scrolled, setScrolled] = useState(false);
 
   const toggleMenu = () => {
     setMenuOpen((prev) => !prev);
   };
 
-  // useEffect(() => {
-  //   const handleScroll = () => {
-  //     setScrolled(window.scrollY > 50);
-  //   };
-  //   window.addEventListener("scroll", handleScroll);
-  //   return () => window.removeEventListener("scroll", handleScroll);
-  // }, []);
-
   return (
-    <div className={"header_outer_container "}>
+    <div className="header_outer_container">
       <div className="header_container">
-        {/* Logo */}
-        <div className="header_logo">
-          <img src={NetflixLogo} alt="Netflix logo" width="100" />
-        </div>
+        {/* Left side: Logo + Nav */}
+        <div className="header_left">
+          <div className="header_logo">
+            <img src={NetflixLogo} alt="Netflix logo" />
+          </div>
 
-        {/* Nav list */}
-        <ul
-          className={`header_left_list ${menuOpen ? "mobile_menu_open" : ""}`}
-        >
-          <li>Home</li>
-          <li>TV Shows</li>
-          <li>Movies</li>
-          <li>Latest</li>
-          <li>MyList</li>
-          <li className="browse-language">Browse by Languages</li>
-        </ul>
+          <ul
+            className={`header_left_list ${menuOpen ? "mobile_menu_open" : ""}`}
+          >
+            <li>Home</li>
+            <li>TV Shows</li>
+            <li>Movies</li>
+            <li>Latest</li>
+            <li>MyList</li>
+            <li className="browse-language">Browse by Languages</li>
+          </ul>
+        </div>
 
         {/* Right side icons */}
         <div className="header_right">
